@@ -1,20 +1,19 @@
 {
   "rooms": [
-    {"id": 0, "size": 0},
-    {"id": 1, "size": 1},
-    {"id": 2, "size": 0},
-    {"id": 3, "size": 1},
-    {"id": 4, "size": 0}
+    {"id": 0, "size": 1}, {"id": 1, "size": 1}, {"id": 2, "size": 1}, {"id": 3, "size": 1}, {"id": 4, "size": 1},
+    {"id": 5, "size": 1}, {"id": 6, "size": 1}, {"id": 7, "size": 1}, {"id": 8, "size": 1}, {"id": 9, "size": 1},
+    {"id": 10, "size": 0}, {"id": 11, "size": 0}, {"id": 12, "size": 0}, {"id": 13, "size": 0}, {"id": 14, "size": 0},
+    {"id": 15, "size": 0}, {"id": 16, "size": 0}, {"id": 17, "size": 0}, {"id": 18, "size": 0}, {"id": 19, "size": 0},
+    {"id": 20, "size": 0}, {"id": 21, "size": 0}, {"id": 22, "size": 0}, {"id": 23, "size": 0}, {"id": 24, "size": 0},
+    {"id": 25, "size": 0}, {"id": 26, "size": 0}, {"id": 27, "size": 0}, {"id": 28, "size": 0}, {"id": 29, "size": 0}
   ],
   "courses": [
-    {"id": 0, "size": 1},
-    {"id": 1, "size": 0},
-    {"id": 2, "size": 1},
-    {"id": 3, "size": 0},
-    {"id": 4, "size": 1}
+    {"id": 1, "size": 1}, {"id": 2, "size": 1}, {"id": 3, "size": 1}, {"id": 4, "size": 1}, {"id": 5, "size": 1},
+    {"id": 6, "size": 0}, {"id": 7, "size": 0}, {"id": 8, "size": 0}, {"id": 9, "size": 0}, {"id": 10, "size": 0},
+    {"id": 11, "size": 0}, {"id": 12, "size": 0}, {"id": 13, "size": 0}, {"id": 14, "size": 0}, {"id": 15, "size": 0}
   ],
-  "professors": [0,1,2,3,4,5,6,7,8,9],
-  "days": [0,1,2,3,4],
-  "slots": [0,1,2,3,4,5],
-  "sections": [0,1,2,3,4,5,6,7,8,9]
+  "professors": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+  "sections": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+  "days": [2, 3, 4, 5, 6],
+  "slots": [1, 2, 3, 4, 5, 6]
 }
