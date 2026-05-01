@@ -63,7 +63,7 @@
                     <table class="min-w-full table-fixed border-collapse">
                         <thead>
                             <tr class="bg-gray-100 text-gray-700">
-                                <th class="w-24 p-4 border text-center">Tiết</th>
+                                <th class="w-24 p-4 border text-center">Ca</th>
                                 <th class="p-4 border text-center">Thứ 2</th>
                                 <th class="p-4 border text-center">Thứ 3</th>
                                 <th class="p-4 border text-center">Thứ 4</th>
@@ -154,7 +154,7 @@
             body.innerHTML = "";
 
             for (let slot = 1; slot <= 6; slot++) {
-                let row = `<tr class="border-b"><td class="p-4 border font-bold text-center bg-gray-50 text-blue-900">Tiết ${slot}</td>`;
+                let row = `<tr class="border-b"><td class="p-4 border font-bold text-center bg-gray-50 text-blue-900">Ca ${slot}</td>`;
 
                 for (let day = 2; day <= 6; day++) {
                     const sessions = schedule.filter(s => s.day === day && s.slot === slot);
