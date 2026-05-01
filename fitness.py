@@ -40,11 +40,6 @@ def fitness(chromosome):
         course_sessions[gene["course"]["id"]].append(gene)
 
     for course_id, sessions in course_sessions.items():
-        # phải đúng 2 buổi
-        if len(sessions) != 2:
-            penalty += 50
-            continue
-
         d1 = sessions[0]["day"]
         d2 = sessions[1]["day"]
 
